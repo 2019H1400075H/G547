@@ -88,7 +88,9 @@ static void usbdev_disconnect(struct usb_interface *interface)
 }
 
 static struct usb_device_id usbdev_table [] = {
-	{USB_DEVICE(SAN_VID, SAN_PID)},
+	{USB_DEVICE(HDD_1_VID, HDD_1_PID)},
+	{USB_DEVICE(HDD_2_VID, HDD_2_PID)},
+	{USB_DEVICE(ONE_PLUS_VID, ONE_PLUS_PID)},
 	{}	
 };
 
